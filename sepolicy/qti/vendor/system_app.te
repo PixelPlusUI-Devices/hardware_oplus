@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Battery Health
 r_dir_file(system_app, vendor_sysfs_usb_supply)
 
@@ -13,7 +12,7 @@ rw_dir_file(system_app, sysfs_vibrator)
 
 # Zram
 r_dir_file(system_app, sysfs_zram)
-=======
+
 rw_dir_file(system_app, sysfs_dm)
 rw_dir_file(system_app, sysfs_fastcharge)
 rw_dir_file(system_app, sysfs_sync)
@@ -25,4 +24,3 @@ rw_dir_file(system_app, vendor_sysfs_graphics)
 rw_dir_file(system_app, vendor_sysfs_kgsl)
 rw_dir_file(system_app, vendor_sysfs_msm_perf)
 rw_dir_file(system_app, vendor_sysfs_usb_supply)
->>>>>>> e1d07ca (hardware: Initial OPlusExtras 7.2 import!)
