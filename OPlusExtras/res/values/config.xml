@@ -84,4 +84,8 @@
          The array should be sorted in the same order as the
          touchscreen gestures advertised by the device's LineageHW impl. -->
     <integer-array name="config_defaultTouchscreenGestureActions" />
+
+    <!-- Dolby -->
+    <string name="config_DolbyPackage" translatable="false">com.dolby.daxappui</string>
+    <string name="config_DolbyStartActivity" translatable="false">com.dolby.daxappui.MainActivity</string>
 </resources>
